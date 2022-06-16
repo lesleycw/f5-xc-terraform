@@ -1,9 +1,9 @@
 terraform {
-  required_version = ">= 0.12"
+  required_version = ">= 0.13"
   required_providers {
     volterra = {
       source  = "volterraedge/volterra"
-      version = "0.11.3"
+      version = "0.11.9"
     }
     azurerm = {
       source = "hashicorp/azurerm"
