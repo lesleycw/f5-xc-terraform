@@ -3,6 +3,33 @@ F5 Distributed Cloud - Azure HA Cluster Deployment
 
 This repository provides a deployment sample for a Mesh Node HA Cluster within an Azure vNet. 
 
+<!--TOC-->
+
+- [Requirements](#requirements)
+- [Providers](#providers)
+- [Modules](#modules)
+- [Resources](#resources)
+- [Inputs](#inputs)
+- [Outputs](#outputs)
+- [Deployment](#deployment)
+- [Support](#support)
+
+
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
+
+Pending more updates
+
+## Providers
+
+Pending
+
+## Modules
+
+Pending
 
 ## Inputs
 
@@ -28,6 +55,14 @@ This repository provides a deployment sample for a Mesh Node HA Cluster within a
 | <a name="input_fleet_label"></a> [fleet\_label](#input\_fleet\_label) | n/a | `string` | `"fleet_label"` |
 | <a name="input_cidr"></a> [cidr](#input\_cidr) | REQUIRED: VNET Network CIDR | `string` | `"10.90.0.0/16"` |
 | <a name="input_tags"></a> [tags](#input\_tags) | Environment tags for objects | `map(string)` | <pre>{<br>  "application": "f5app",<br>  "costcenter": "f5costcenter",<br>  "creator": "Terraform",<br>  "delete": "True",<br>  "environment": "azure",<br>  "group": "f5group",<br>  "owner": "f5owner",<br>  "purpose": "public"<br>}</pre> |
+
+## Outputs
+
+Pending
+
+## Deployments
+
+Pending
 
 ## Support
 
